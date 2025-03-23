@@ -84,8 +84,8 @@ TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      username: 'postgres',
-      password: 'postgres',
+      username: 'postgres', //change username
+      password: 'postgres', //change password
       database: 'order_tracking',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
@@ -94,3 +94,10 @@ TypeOrmModule.forRoot({
 - If you face issues, check logs using `npm run start:debug` for backend.
 
 
+![image](https://github.com/user-attachments/assets/3c36bd89-8b77-4172-9b2c-427cd710c138)
+
+![image](https://github.com/user-attachments/assets/e39f16f5-972c-41f8-abb3-a893e6eaf721)
+
+![image](https://github.com/user-attachments/assets/9f150963-c2d5-4284-8ee0-82677479208b)
+
+![image](https://github.com/user-attachments/assets/e0a7fe03-2de8-48e5-a616-31e9703ecd6f)
