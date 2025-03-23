@@ -84,8 +84,8 @@ TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      username: 'postgres', //change username
-      password: 'postgres', //change password
+      username: '', //change username
+      password: '', //change password
       database: 'order_tracking',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
