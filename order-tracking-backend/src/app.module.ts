@@ -10,8 +10,8 @@ import { OrdersModule } from './orders/orders.module';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      username: 'postgres',
-      password: 'postgres',
+      username: '', //change username
+      password: '',  //change password
       database: 'order_tracking',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
